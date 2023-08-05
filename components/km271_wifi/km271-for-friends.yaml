@@ -51,7 +51,7 @@ wifi:
     password: ""
 
 dashboard_import:
-  package_import_url: github://the78mole/esphome_components/components/km271_wifi/km271-for-friends.yaml@main
+  package_import_url: github://cayco/esphome_components/components/km271_wifi/km271-for-friends.yaml@main
 
 captive_portal:
 #  keep_user_credentials: true
@@ -63,7 +63,7 @@ uart:
   baud_rate: 2400
 
 external_components:
-  - source: github://the78mole/esphome_components@main
+  - source: github://cayco/esphome_components@main
     components: [ km271_wifi ]
     refresh:    1sec
 #  - source:
