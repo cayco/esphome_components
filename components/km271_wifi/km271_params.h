@@ -343,7 +343,7 @@ static const t_Buderus_R2017_ParamDesc buderusParamDesc[] = {
     {config_heating_circuit_1_heating_system_type, CFG01C, true, SensorType::BYTE_AT_OFFSET, 2, "CFG_HK1_Heizsystem", ""},
     {config_heating_circuit_1_room_temperature_offset, CFG031, true, SensorType::BYTE_DIVIDED_BY_2_AT_OFFSET, 3, "CFG_HK1_Raumtemperatur Offset", "°C"},
     {config_heating_circuit_1_remote_control, CFG031, true, SensorType::BYTE_AT_OFFSET, 4, "CFG_HK1_Fernbedienung", ""},
-    {config_frost_switch_temperature, CFG031, true, SensorType::BYTE_AT_OFFSET, 5, "CFG_Frost Umschalttemperatur", "°C"},
+    {config_frost_switch_temperature, CFG031, true, SensorType::BYTE_AT_OFFSET, 5, "CFG_Temperatura_przelaczania_mrozu", "°C"},
     {config_heating_circuit_1_heating_program, CFG100, true, SensorType::BYTE_AT_OFFSET, 0, "CFG_HK1_Heizprogramm", ""},
     {config_heating_circuit_1_holiday_days, CFG100, true, SensorType::BYTE_AT_OFFSET, 3, "CFG_HK1_Urlaubstage", ""},
     // Konfiguration HK2
