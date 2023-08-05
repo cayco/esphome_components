@@ -302,14 +302,14 @@ binary_sensor:
 # #          budoil->writer.enqueueTelegram(command, 8);
 
 
-# number:
-#   - platform: km271_wifi
-#     config_ww_temperature:
+number:
+  - platform: km271_wifi
+    config_ww_temperature:
 #       name: "Warmwassersolltemperatur Tag"
 #       mode: slider
 #     config_frost_switch_temperature:
-#       name: "Frost Umschalttemperatur"
-#       mode: slider
+      name: "Temperatura włączania gdy jest mróz"
+      mode: slider
 
 #     config_heating_circuit_1_room_target_temperature_night:
 #       name: "Heizkreis 1 Raumsolltemperatur Nacht"
